@@ -27,12 +27,12 @@ const common = merge(
     },
     output: {
       path: PATHS.build,
-      filename: '[name].js'
+      filename: '[name].js',
       // TODO: Set publicPath to match your GitHub project name
       // E.g., '/kanban-demo/'. Webpack will alter asset paths
       // based on this. You can even use an absolute path here
       // or even point to a CDN.
-      //publicPath: "kanban-demo"
+      publicPath: "/kanban-demo/"
     },
     resolve: {
       extensions: ['', '.js', '.jsx']
